@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rhdh-orchestrator-test
+spec:
+  profile:
+    displayName: rhdh-orchestrator-test
+  memberOf: ['janus-orchestrator']
