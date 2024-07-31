@@ -4,5 +4,6 @@ metadata:
   name: rhdh-orchestrator-test
 spec:
   profile:
+    email: rhdh-orchestrator-test@redhat.com
     displayName: rhdh-orchestrator-test
   memberOf: ['janus-orchestrator']
