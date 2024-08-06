@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user-rbac-denied
+spec:
+  profile:
+    email: user-rbac-denied@test.com
+    displayName: user-rbac-denied
+  memberOf: ['janus-orchestrator']
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user-rbac-readwrite
+spec:
+  profile:
+    email: user-rbac-readwrite@test.com
+    displayName: user-rbac-readwrite
+  memberOf: ['janus-orchestrator']
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user-rbac-readonly
+spec:
+  profile:
+    email: user-rbac-readonly@test.com
+    displayName: user-rbac-readonly
+  memberOf: ['janus-orchestrator']
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user-implicit-deny
+spec:
+  profile:
+    email: user-implicit-deny@test.com
+    displayName: user-implicit-deny
+  memberOf: ['janus-orchestrator']
