@@ -4,7 +4,7 @@ metadata:
   name: user-rbac-denied
 spec:
   profile:
-    email: user-rbac-denied@test.com
+    email: rhdh-orchestrator-test-rbac-denied@redhat.com
     displayName: user-rbac-denied
   memberOf: ['janus-orchestrator']
 ---
@@ -14,7 +14,7 @@ metadata:
   name: user-rbac-readwrite
 spec:
   profile:
-    email: user-rbac-readwrite@test.com
+    email: rhdh-orchestrator-test-2@redhat.com
     displayName: user-rbac-readwrite
   memberOf: ['janus-orchestrator']
 ---
@@ -24,7 +24,7 @@ metadata:
   name: user-rbac-readonly
 spec:
   profile:
-    email: user-rbac-readonly@test.com
+    email: rhdh-orchestrator-test-rbac-readonly@redhat.com
     displayName: user-rbac-readonly
   memberOf: ['janus-orchestrator']
 ---
@@ -34,6 +34,6 @@ metadata:
   name: user-implicit-deny
 spec:
   profile:
-    email: user-implicit-deny@test.com
+    email: rhdh-orchestrator-test-implicit-deny@redhat.com
     displayName: user-implicit-deny
   memberOf: ['janus-orchestrator']
