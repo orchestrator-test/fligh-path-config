@@ -1,39 +1,39 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: user-rbac-denied
+  name: rhdh-orchestrator-test-rbac-denied
 spec:
   profile:
     email: rhdh-orchestrator-test-rbac-denied@redhat.com
-    displayName: user-rbac-denied
+    displayName: rhdh-orchestrator-test-rbac-denied
   memberOf: ['janus-orchestrator']
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: user-rbac-readwrite
+  name: rhdh-orchestrator-test-rbac-readwrite
 spec:
   profile:
-    email: rhdh-orchestrator-test-2@redhat.com
-    displayName: user-rbac-readwrite
+    email: rhdh-orchestrator-test-rbac-readwrite@redhat.com
+    displayName: rhdh-orchestrator-test-rbac-readwrite
   memberOf: ['janus-orchestrator']
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: user-rbac-readonly
+  name: rhdh-orchestrator-test-rbac-readonly
 spec:
   profile:
     email: rhdh-orchestrator-test-rbac-readonly@redhat.com
-    displayName: user-rbac-readonly
+    displayName: rhdh-orchestrator-test-rbac-readonly
   memberOf: ['janus-orchestrator']
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: user-implicit-deny
+  name: rhdh-orchestrator-test-implicit-deny
 spec:
   profile:
     email: rhdh-orchestrator-test-implicit-deny@redhat.com
-    displayName: user-implicit-deny
+    displayName: rhdh-orchestrator-test-implicit-deny
   memberOf: ['janus-orchestrator']
