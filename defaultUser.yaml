@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: guest
-  namespace: default
+  namespace: development
 spec:
   profile:
     email: rhdh-orchestrator-test@redhat.com
     displayName: Guest User
-  memberOf: []
+  memberOf: ['janus-orchestrator']
